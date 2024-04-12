@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.notification-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-width: 0px;
+  min-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 30px;
+    min-width: 550px;
+  }
+}
+
+.icon-symbol {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.info-notification {
+  background-color: #0b69ff;
+}
+
+.success-notification {
+  background-color: #2dca73;
+}
+
+.warning-notification {
+  background-color: #ffb800;
+}
+
+.error-notification {
+  background-color: #ff0b37;
+}
